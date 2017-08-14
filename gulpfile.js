@@ -14,3 +14,7 @@ gulp.task('publish', function(){
     .pipe(jsmini())
     .pipe(gulp.dest('./game'));
 });
+
+gulp.task('watch', function(){
+    gulp.watch('./app/*.js', ['publish']);
+});
