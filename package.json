@@ -1,0 +1,27 @@
+{
+  "name": "bause-game",
+  "version": "1.0.0",
+  "description": "side scroller space game",
+  "main": "./app/main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ncoder83/bause-game.git"
+  },
+  "keywords": [
+    "bause",
+    "space",
+    "shooter",
+    "side",
+    "scroller",
+    "game"
+  ],
+  "author": "Gridixsoft",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ncoder83/bause-game/issues"
+  },
+  "homepage": "https://github.com/ncoder83/bause-game#readme"
+}
