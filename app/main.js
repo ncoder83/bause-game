@@ -1,18 +1,11 @@
-var game = new Phaser.Game(800, 400, 
-                          Phaser.AUTO, '', 
-                          { preload: preload, 
-                            create: create, 
-                            update: update 
-});
+window.onload = function(){
+  var game = new Phaser.Game(800,600,Phaser.Canvas,'');
+  
+  game.state.add('Boot', Game.Boot);
+  game.state.add('Preloader', Game.Preloader);
+  game.state.add('MainMenu', Game.MainMenu);
+  game.state.add('Level', Game.Level);
 
-function preload() {
-
-}
-
-function create() {
-}
-
-
-
-function update() {
-}
+  game.state.start('Boot');
+  
+};
